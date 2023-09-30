@@ -22,3 +22,6 @@
   border-radius: 5px;
 cursor: pointer;
 }
+.complete{
+    text-decoration: line-through;
+}
