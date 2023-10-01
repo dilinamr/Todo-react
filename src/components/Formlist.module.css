@@ -1,11 +1,11 @@
-.list{
-    background-color: white;
-    width: 50%;
-    border-radius: 5px;
-    padding: 20px;
+.list {
+  background-color: white;
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    margin-top: 10em;
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
 }

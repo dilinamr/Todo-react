@@ -1,37 +1,41 @@
-.todoform{
-background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
-background-size: cover;
-height: 150px;
-max-width: 800px;
-margin: auto;
-display: flex;
-flex-direction: row;
-padding: 10px;
-justify-content: center;
-align-items: center;
-margin-top: 10em;
-border-radius: 6px;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+.todoform {
+  background-image: radial-gradient(
+    circle 815px at 23.4% -21.8%,
+    rgba(9, 29, 85, 1) 0.2%,
+    rgba(0, 0, 0, 1) 100.2%
+  );
+  background-size: cover;
+  height: 150px;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.todoinput{
-    width: 400px; 
-    height: 40px;
-    border-radius: 5px;
-    border: none; 
-    font-size: x-large;
-    margin-right: 1em;
+.todoinput {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: x-large;
+  margin-right: 1em;
 }
-.todoinput:focus{
-    outline: none;
+.todoinput:focus {
+  outline: none;
 }
-.button{
-    width: 90px;
-    height: 40px;
-    font-size: x-large;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-     background-color: rgb(44, 44, 44);
-     cursor: pointer;
-    
+.button {
+  width: 90px;
+  height: 40px;
+  font-size: x-large;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  cursor: pointer;
 }
