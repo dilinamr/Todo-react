@@ -10,6 +10,8 @@ export default function Todoitem({ item, todos, Settodos }) {
     Settodos(newarray);
   }
   const classname = item.done ? Style.complete : "";
+
+
   return (
     <div className={Style.container}>
       <div className={Style.item}>
@@ -26,7 +28,7 @@ export default function Todoitem({ item, todos, Settodos }) {
         </span>
       </div>
       <hr className={Style.hr} />
-      {console.log(todos)}
+      
     </div>
   );
 }

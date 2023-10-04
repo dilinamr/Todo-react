@@ -5,7 +5,9 @@ export const Form = ({ todos, Settodos }) => {
 
   function handlesubmit(e) {
     e.preventDefault();
+    if (todo.name.trim() !== "") {
     Settodos([...todos, todo]);
+    }
     Settodo({ name: "", done: false });
   }
   return (
